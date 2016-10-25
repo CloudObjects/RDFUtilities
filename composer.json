@@ -1,0 +1,21 @@
+{
+  "name": "cloudobjects/rdfutilities",
+  "description": "ARC2JsonLD Helper Class",
+  "keywords": ["cloudobjects", "rdf", "json-ld", "arc2"],
+  "homepage": "https://github.com/CloudObjects/RDFUtilities",
+  "license": "MPL",
+  "authors": [
+    {
+      "name": "Lukas Rosenstock"
+    }
+  ],
+  "require": {
+    "semsol/arc2" : "v2.1.0",
+    "ml/json-ld" : ">=1.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CloudObjects\\Utilities\\RDF\\" : ""
+    }
+  }
+}
