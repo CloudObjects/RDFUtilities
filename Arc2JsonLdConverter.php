@@ -60,8 +60,14 @@ class Arc2JsonLdConverter {
       $arcTriples[] = array(
         's' => (string)$q->getSubject(),
         'p' => (string)$q->getProperty(),
-        'o' => (is_a($q->getObject(), 'ML\JsonLD\TypedValue')) ? $q->getObject()->getValue() : (string)$q->getObject(),
-        'o_type' => (is_a($q->getObject(), 'ML\JsonLD\TypedValue')) ? 'literal' : 'uri'
+        'o' => (is_a($q->getObject(), 'ML\JsonLD\TypedValue'))
+          ? $q->getObject()->getValue()
+          : (string)$q->getObject(),
+        'o_type' => (is_a($q->getObject(), 'ML\JsonLD\TypedValue'))
+          ? 'literal'
+          : (($q->getObject()->getScheme() == '_')
+            ? 'bnode'
+            : 'uri')
       );
     }
     return $arcTriples;
