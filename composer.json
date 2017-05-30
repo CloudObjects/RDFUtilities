@@ -3,7 +3,7 @@
   "description": "ARC2JsonLD Helper Class",
   "keywords": ["cloudobjects", "rdf", "json-ld", "arc2"],
   "homepage": "https://github.com/CloudObjects/RDFUtilities",
-  "license": "MPL",
+  "license": "MPL-2.0",
   "authors": [
     {
       "name": "Lukas Rosenstock"
