@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "semsol/arc2" : "v2.1.0",
+    "semsol/arc2" : ">=2.1.0",
     "ml/json-ld" : ">=1.0.3"
   },
   "autoload": {
