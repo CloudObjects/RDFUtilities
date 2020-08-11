@@ -1,6 +1,6 @@
 # RDF Utilities
 
-[![Latest Stable Version](https://poser.pugx.org/cloudobjects/rdfutilities/v/stable)](https://packagist.org/packages/cloudobjects/rdfutilities) [![Total Downloads](https://poser.pugx.org/cloudobjects/sdk/downloads)](https://packagist.org/packages/cloudobjects/rdfutilities) [![Build Status](https://travis-ci.org/CloudObjects/RDFUtilities.svg?branch=master)](https://travis-ci.org/CloudObjects/RDFUtilities) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/46a41162-afc7-4a6f-a797-dad28d15661d/mini.png)](https://insight.sensiolabs.com/projects/46a41162-afc7-4a6f-a797-dad28d15661d)
+[![Latest Stable Version](https://poser.pugx.org/cloudobjects/rdfutilities/v/stable)](https://packagist.org/packages/cloudobjects/rdfutilities) [![Total Downloads](https://poser.pugx.org/cloudobjects/sdk/downloads)](https://packagist.org/packages/cloudobjects/rdfutilities) [![Build Status](https://travis-ci.org/CloudObjects/RDFUtilities.svg?branch=main)](https://travis-ci.org/CloudObjects/RDFUtilities) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/46a41162-afc7-4a6f-a797-dad28d15661d/mini.png)](https://insight.sensiolabs.com/projects/46a41162-afc7-4a6f-a797-dad28d15661d)
 
 This library bundles various helper classes to simplify working with RDF data, especially the conversion of data between the formats used by [Semsol's ARC2 RDF library](https://packagist.org/packages/semsol/arc2) and [Markus Lanthaler's JSON-LD Processor for PHP](https://packagist.org/packages/ml/json-ld).
 
