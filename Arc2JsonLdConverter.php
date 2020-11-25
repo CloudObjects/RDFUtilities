@@ -114,7 +114,6 @@ class Arc2JsonLdConverter {
      * @param string|array|object $jsonLd JsonLD content
      */
     public static function jsonLdToTriples($jsonLd) {
-        if (is_array($jsonLd)) $jsonLd = (object)$jsonLd;
         return self::quadsToTriples(JsonLD::toRdf($jsonLd));
     }
 
@@ -123,7 +122,6 @@ class Arc2JsonLdConverter {
      * @param string|array|object $jsonLd JsonLD content
     */
     public static function jsonLdToIndex($jsonLd) {
-        if (is_array($jsonLd)) $jsonLd = (object)$jsonLd;
         return self::quadsToIndex(JsonLD::toRdf($jsonLd));
     }
 
